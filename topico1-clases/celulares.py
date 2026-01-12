@@ -57,7 +57,7 @@ class CrearUsuarioDTO:
     password: str
 
 
-usuario = CrearUsuarioDTO("Juan", "juan@mail.com", "123") # serializacion: convertir dict -> json
+usuario = CrearUsuarioDTO("Juan", "juan@mail.com", "123")  # serializacion: convertir dict -> json
 print(asdict(usuario))
 # {'nombre': 'Juan', 'email': 'juan@mail.com', 'password': '123'}
 

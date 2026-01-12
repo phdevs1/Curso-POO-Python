@@ -24,4 +24,4 @@ print("celular4: ", cel4.modelo)
 # <celular.Celular object at 0x7ff103ffdfd0>
 #  imprime celular porque dice que la clase viene del modulo celular
 # <__main__.Celular object at 0x7b6725d02090>
-#  aparece main porque el objeto pertence al archivo principal, y se ejecuta ahi
+# aparece main porque el objeto pertence al archivo principal, y se ejecuta ahi
