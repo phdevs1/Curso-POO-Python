@@ -2,10 +2,9 @@
 #     def __init__(self, nombre: str, edad: int) -> None:
 #         self.nombre = nombre
 #         self.edad = edad
-    
+
 #     def __str__(self) -> str:
 #         return f"Persona(nombre={self.nombre}, edad={self.edad})"
-    
 
 # persona1 = Persona("Juan", 30)
 # print(persona1)  # Output: Persona(nombre=Juan, edad=30)
