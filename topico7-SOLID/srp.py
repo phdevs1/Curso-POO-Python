@@ -1,4 +1,12 @@
 # single responsability principle: una clase solo tiene una razon para cambiar
+# ejemplo:
+# * el corazon es parte del cuerpo, pero uno no se encarga concientemente de
+#   regular los latidos del corazon (lo hace otro sistema)
+# * Dominio vs responsabilidad
+#   - dominio: el auto usa combustible, auto consume energia, auto no se mueve
+#       sin combustible
+#   - responsabilidad: quien decide como se consume el combustible, X no el auto,
+#       si el sistema de combustible
 class Auto:
     def __init__(self):
         self.posicion = 0
