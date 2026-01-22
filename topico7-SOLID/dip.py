@@ -53,3 +53,16 @@ notifier.notify("Pago aprobado")
 sms = SMSChannel()
 notifier = NotificationService(sms)
 notifier.notify("Pago aprobado")
+
+
+# La inyección de dependencias es una técnica para aplicar el DIP.
+
+# DI SIN DIP (muy común) + inyeccion
+class MySQLDatabase:
+    def save(self, data):
+        pass
+
+
+class UserService:
+    def __init__(self, db: MySQLDatabase):
+        self.db = db
